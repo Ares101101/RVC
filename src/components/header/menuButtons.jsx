@@ -1,6 +1,8 @@
 import { NavBar } from "./menuButton"
 import { useEffect, useState } from "react"
 import { buttons } from "./b";
+import { Link } from "react-router-dom";
+
 
 export function MenuButtons()  {
    
@@ -21,10 +23,21 @@ export function MenuButtons()  {
    return (
 
         <header className= "flex  h-auto justify-between ">
-                <NavBar text="Inicio"  />                
-                { anchoVentana < 600 ? <NavBar  text={"|||"} textclass={"transform rotate-90"} />: buttons.map((button, index) => (
-                <NavBar key={index} text={button} /> 
-                ))}     
+                 <Link to="Inicio">
+                  <NavBar text="Inicio"  /> 
+                </Link>
+                               
+                {anchoVentana < 600 ? (
+                    <Link to="|||">
+                      <NavBar text={"|||"} textclass={"transform rotate-90"} />
+                    </Link>
+                  ) : (
+                    buttons.map((button, index) => (
+                      <Link to={button} key={index}>
+                        <NavBar text={button} />
+                      </Link>
+                    ))
+                  )}  
         </header>         
    )
 }

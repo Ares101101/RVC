@@ -1,17 +1,25 @@
 
 import { NavBar } from './menuButton';
-import { buttons } from "./b";
+
+import { Link } from 'react-router-dom';
 
 const FullScreenComponent = () => {
-    
+ 
   return (
       <div className="w-screen h-screen flex flex-col justify-center items-center bg-[#013b57c2]">
         <div className="flex flex-col">
-          {buttons.map((button, index) => (
-            console.log(button, index),
-             <NavBar key={index} text={button} /> 
-            
-          ))}
+            <Link to="/Servicios" >
+               <NavBar text="Servicios"/>   
+            </Link>            
+            <Link to="/Estudio Contable" >
+               <NavBar text="Estudio Contable"/>   
+            </Link>
+            <Link to="/Clientes" >
+               <NavBar text="Clientes"/>   
+            </Link>  
+            <Link to="/Cronograma de declaraciones" >
+               <NavBar text="Cronograma de declaraciones"/>   
+            </Link>       
         </div>
       </div>
   );
