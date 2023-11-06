@@ -9,7 +9,7 @@ import ErrorPage from "./error-page"
 function App() {
   
   return (
-    <div >                      
+    <div className="bg-[#EDEDED]" >                      
       <MenuHeader/>
       <Routes >
         <Route path="/"   element={<Inicio/>}/>
