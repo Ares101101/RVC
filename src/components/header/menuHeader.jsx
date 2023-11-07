@@ -13,7 +13,7 @@ export function MenuHeader() {
                 </div>
             
                 <div className="relative flex  overflow-hidden h-14">
-                    <picture className="bg-[#023047] absolute inset-0 z-1 justify-center flex items-center before:absolute before:inset-0 before:opacity-20 before:bg-gradient-to-r before:from-white before:to-[#023047] before:z-0 w-[1280px]">
+                    <picture className="bg-[#023047] absolute inset-0 z-1 justify-center flex items-center before:absolute before:inset-0 before:opacity-20 before:bg-gradient-to-l before:from-white before:to-[#023047] before:z-0 w-[1280px]">
                        
                     </picture>
                     <div className="pl-4 z-1 relative flex items-center pr-4">

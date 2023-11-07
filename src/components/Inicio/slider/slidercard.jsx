@@ -1,11 +1,11 @@
 
 import PropTypes from 'prop-types';
 export function SliderCard ({imge, options}){
-    return (
-        <div className=''>
-            <div className=''>
-                <picture className='  flex max-w-5xl  min-w-mg'>
-                    <img src={imge} alt={imge} className='w-screen h-auto '  />
+    return (    
+        <div className=' flex-1 flex '>
+            <div className=' '>
+                <picture className='max-h-[21rem] flex w max-w-screen-md object-cover'>
+                    <img src={imge} alt={imge} className='w-full h-auto '  />
                 </picture>
             </div>
             
