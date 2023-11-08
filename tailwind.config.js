@@ -5,8 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      scale: {
+        '-1': '-1',
+      },
+    },
+    variants: {
+      extend: {
+        scale: ['group-hover'],
+      },
+    },
   },
   plugins: [],
+
 }
 
