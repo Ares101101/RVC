@@ -86,18 +86,7 @@ export const Slider = () => {
         />
         </picture>
       </AnimatePresence>
-      <motion.h1
-        initial={{display:'',}}
-        transition={{duration:1}}
-        animate={{
-          y:0,
-          x:-500,
-          color:'#000',
-          zIndex:2
-        }}
-        >
-          hola  
-        </motion.h1>
+     
       <div className="  bg-[#023047] text-white hover:text-[#023047] hover:bg-[#ffb703] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-2  transform scale-1  "  
       onClick={() => paginate(1)}
       

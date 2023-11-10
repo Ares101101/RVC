@@ -24,17 +24,21 @@ export function MenuButtons()  {
 
         <header className= "flex  h-auto justify-between ">
                  <Link to="Inicio">
-                  <NavBar text="Inicio"  /> 
+                  <NavBar text="Inicio" index={0}/> 
                 </Link>
                                
                 {anchoVentana < 600 ? (
                     <Link to="|||">
-                      <NavBar text={"|||"} textclass={"transform rotate-90"} />
+                      <NavBar 
+                      text={"|||"} 
+                      textclass={"transform rotate-90"} 
+                      index={1}
+                      />
                     </Link>
                   ) : (
                     buttons.map((button, index) => (
                       <Link to={button} key={index}>
-                        <NavBar text={button} />
+                        <NavBar text={button}  index={(index+1)}/>
                       </Link>
                     ))
                   )}  
