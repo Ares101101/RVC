@@ -1,7 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import { image } from "./i.jsx";
+import PropTypes from 'prop-types';
+
+const editions = {
+  hidden:{
+      opacity: 0
+  },
+  visible:({ delay , duration, })=>( {
+      opacity: 1,
+      transition: {
+          delay,
+          duration,
+      }
+  })
+}
 
 const variants = {
   enter: (direction) => {
@@ -24,42 +38,58 @@ const variants = {
   }
 };
 
-/**
- * Experimenting with distilling swipe offset and velocity into a single variable, so the
- * less distance a user has swiped, the more velocity they need to register as a swipe.
- * Should accomodate longer swipes and short flicks without having binary checks on
- * just distance thresholds and velocity > 0.
- */
+
 const swipeConfidenceThreshold = 10000;
 const swipePower = (offset, velocity) => {
   return Math.abs(offset) * velocity;
 };
 
-export const Slider = () => {
+
+
+export const Slider = ( {indexFunc}) => {
+
+
+
   const [[page, direction], setPage] = useState([0, 0]);
 
-  // We only have 3 image, but we paginate them absolutely (ie 1, 2, 3, 4, 5...) and
-  // then wrap that within 0-2 to find our image ID in the array below. By passing an
-  // absolute page index as the `motion` component's `key` prop, `AnimatePresence` will
-  // detect it as an entirely new image. So you can infinitely paginate as few as 1 image.
+ 
   const imageIndex = wrap(0, image.length, page);
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
   };
 
+
+  const sliderRef = useRef(imageIndex);
+
+
+  useEffect(() => {
+    if (typeof indexFunc === "function") {
+      indexFunc(imageIndex);
+    }
+  }, [indexFunc, imageIndex]);
+
+
   return (
-    <div className=" flex flex-row items-center w-[100%]   justify-between overflow-hidden">
-      <div className="bg-[#023047] text-white hover:text-[#023047] hover:bg-[#ffb703] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-2  transform scale-1   "  
+    <motion.div 
+      className=" flex  items-center w-[100%]  relative justify-center overflow-hidden"
+      index ={page}
+      initial='hidden'
+      animate='visible'
+      custom={{ delay:(page+1)*0.2, duration:1}}
+      variants={editions}
+      ref={sliderRef}
+    >
+      <div className="bg-[#023047] text-white hover:text-[#023047] hover:bg-[#ffb703] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-10  transform scale-1 absolute left-0  "  
       onClick={() => paginate(-1)}
       
       >
         {"<"}
       </div>
       <AnimatePresence initial={false} custom={direction}   >
-        <picture className="w-[70%] max-h-96  flex">
+        <picture className="w-full   items-center  flex  justify-center">
         <motion.img
-          className="w-full h-auto "
+          className="w-screen h-auto filter brightness-90  contrast-90 "
           key={page}
           src={image[imageIndex]}
           custom={direction}
@@ -84,16 +114,20 @@ export const Slider = () => {
             }
           }}
         />
+        {console.log(imageIndex)}
         </picture>
       </AnimatePresence>
      
-      <div className="  bg-[#023047] text-white hover:text-[#023047] hover:bg-[#ffb703] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-2  transform scale-1  "  
+      <div className="  bg-[#023047] text-white hover:text-[#023047] hover:bg-[#ffb703] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-10  transform scale-1 absolute right-0 "  
       onClick={() => paginate(1)}
       
       >
         {">"}
       </div>
       
-    </div>
+    </motion.div>
   );
+};
+Slider.propTypes = {
+  indexFunc: PropTypes.func.isRequired,
 };

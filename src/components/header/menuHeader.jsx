@@ -18,7 +18,7 @@ const editions = {
 export function MenuHeader() {
     return (
         <motion.header 
-        className=" w-full  flex justify-center fixed z-[2] inset-auto " 
+        className=" w-full  flex justify-center fixed z-[11] inset-auto " 
         initial='hidden'
         animate='visible'
         custom={{ delay: 0.1, duration:1}}
