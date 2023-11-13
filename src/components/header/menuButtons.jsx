@@ -24,7 +24,7 @@ export function MenuButtons()  {
 
         <header className= "flex  h-auto justify-between ">
                  <Link to="Inicio">
-                  <NavBar text="Inicio" index={0}/> 
+                  <NavBar text="INICIO" index={0}/> 
                 </Link>
                                
                 {anchoVentana < 600 ? (

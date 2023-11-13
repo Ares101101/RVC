@@ -37,7 +37,7 @@ const ComponenteUno = () => {
                 zIndex:10,   
             }}
             exit="exit"
-            className=" h-0 w-[70%] text-4xl absolute  "
+            className=" h-0 w-[70%] text-4xl absolute sm:visible"
             style={{ 
                 fontSize: '32px',
                 textTransform: 'uppercase',

@@ -29,7 +29,7 @@ export function MenuHeader() {
             
             >
                 <div 
-                className="h-14 bg-[#023047] text-white font-semibold max-w-[1280px] items-center flex  pl-4  "
+                className="h-14 bg-[#023047] text-white font-semibold max-w-[1280px] items-center text-sm flex  pl-4  "
                 >
                     <p className="box-content">RVC servicios contables S.A.</p> 
                 </div>
