@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Bno } from "./bno"
 import { nbuttons } from "./n";
-import { logos } from "./n";
+
 import { Arti }from "./arti"
 
 export function Nosotros(){
@@ -15,12 +15,12 @@ export function Nosotros(){
 
     return (
 
-        <section className="flex sm:max-w-[1280px] w-[100%] flex-col sm:flex-row">
-                <article className="flex flex-col bg-[#219ebc] font-semibold sm:w-[30%] w-[100%] h-[350px] justify-around " >
+        <section className="flex sm:max-w-[1280px] w-[100%] flex-col sm:flex-row gap-2">
+                <article className="flex flex-col bg-[#219ebc] font-semibold sm:w-[350px] w-[100%] h-[350px] justify-around " >
                     {nbuttons.map((button, index) => (
                     <Bno 
                     name={button} 
-                    svg={logos[index]}
+                   
                     key={index}
                     index={index} 
                     click={indexFunc}    

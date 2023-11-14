@@ -65,14 +65,10 @@ const CompoTres = () => {
 const CompoCuatro = () => {
     return(
         <article className="font-semibold flex-col flex   md:flex-row justify-between  items-center pl-4 pr-4 text-sm gap-2">
-        <span className="sm:w-[447px] w-[100%] flex flex-col items-center">
+        <span className="max-w-[500px]">
             <strong className="text-[#ffb703]">Objetivos: </strong>
             <div>
-                <li>Excelencia en el Servicio.</li>
-                <li>Crecimiento Sostenible.</li>
-                <li>Innovación Continua.</li>
-                <li>Desarrollo Profesional.</li>
-                <li>Ética y Responsabilidad.</li>
+            En RVC, nos esforzamos por la excelencia y el crecimiento sostenible. Buscamos superar las expectativas en cada servicio, expandir nuestra cartera de manera constante, promover la innovación continua, invertir en el desarrollo profesional de nuestro equipo, y actuar con integridad y responsabilidad en todas nuestras interacciones.
             </div>
         </span>
         <picture className="flex max-w-lg rounded-xl overflow-hidden max-h-[215px]">
@@ -84,14 +80,10 @@ const CompoCuatro = () => {
 const CompoCinco = () => {
     return(
         <article className="font-semibold flex-col flex   md:flex-row justify-between items-center pl-4 pr-4 text-sm gap-2">
-        <span className=" sm:w-[447px] w-[100%] flex flex-col items-center">
+        <span className="max-w-[500px]">
             <strong className="text-[#ffb703]">Valores: </strong>
             <div>
-                <li>Integridad.</li>
-                <li>Compromiso.</li>
-                <li>Profesionalismo.</li>
-                <li>Colaboración.</li>
-                <li>Innovación.</li>
+                En el corazón de RVC, la integridad es fundamental. Nos comprometemos plenamente con el éxito de nuestros clientes y el crecimiento sostenible, manteniendo estándares profesionales elevados. Fomentamos un entorno colaborativo y abrazamos la innovación como parte central de nuestra identidad empresarial.
             </div>
             
 
