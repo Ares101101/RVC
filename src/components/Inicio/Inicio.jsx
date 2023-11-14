@@ -21,6 +21,7 @@ export default function Inicio (){
                 </div>
                 <Nosotros/>
                 <Mejo/>
+                
             </div>
         </article>
         

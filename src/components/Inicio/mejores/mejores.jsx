@@ -15,7 +15,7 @@ export function Mejo () {
                      
                 </div >
                 <div className="box-content text-white">
-                    Somos los mejores porque combinamos excelencia en servicios contables y legales con un compromiso inquebrantable hacia la integridad y el éxito de nuestros clientes.
+                    porque combinamos excelencia en servicios contables y legales con un compromiso inquebrantable hacia la integridad y el éxito de nuestros clientes.
                 </div  >
                     <article className="flex flex-row items-center gap-4">
                         <div className="  flex items-center justify-center border-solid border-2 border-white rounded-md w-[55px] min-w-[55px] h-[55px]">
