@@ -9,6 +9,11 @@ export default {
       scale: {
         '-1': '-1',
       },
+      scrollSnapType: {
+        'x-mandatory': 'x mandatory',
+        'y-mandatory': 'y mandatory',
+        'both-mandatory': 'both mandatory',
+      },
     },
     variants: {
       extend: {
