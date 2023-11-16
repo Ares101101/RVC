@@ -5,7 +5,7 @@ export function Scard ({ cover, title,  }){
     return(
         
           <article
-            className="group relative hover:bg-[#fb8500] shadow-lg hover:shadow-xl bg-[#023047]  rounded-md ransi transition-all duration-300 h-[264px]"
+            className="group relative hover:bg-[#fb8500] shadow-lg hover:shadow-xl bg-[#023047]  rounded-md ransi transition-all duration-300 h-[300px]"
             >
             <div
                 className="absolute right-4 bottom-20 translate-y-4

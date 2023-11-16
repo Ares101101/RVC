@@ -1,28 +1,22 @@
-import { useState, useEffect} from "react"
+
 import PropTypes from 'prop-types';
 
-export function     Arti ({index}){
-    const [indiceActual, setIndiceActual] = useState(index);
-    useEffect(() => {
-        setIndiceActual(index);
-      }, [index, indiceActual]);
-
-  
-    switch (indiceActual) {
+export function Arti({ index }) {
+    switch (index) {
       case 0:
         return <CompoUno />;
       case 1:
-        return <CompoDos/>;
+        return <CompoDos />;
       case 2:
-        return <CompoTres/>;
+        return <CompoTres />;
       case 3:
-        return <CompoCuatro/>;
+        return <CompoCuatro />;
       case 4:
-        return <CompoCinco/>;
+        return <CompoCinco />;
       default:
-        return  <CompoUno />;
+        return <CompoUno />;
     }
-}
+  }
 const CompoUno = () => {
     return(
             <article className="font-semibold flex-col flex   md:flex-row justify-around  items-center p-4 text-sm gap-2">
@@ -39,26 +33,26 @@ const CompoUno = () => {
 const CompoDos = () => {
     return(
         <article className="font-semibold flex-col flex   md:flex-row justify-around  items-center p-4 text-sm gap-2">
-        <span className="max-w-[500px]">
-            <strong className="text-[#ffb703]">Misión de RVC: </strong>
-            Facilitar el éxito empresarial brindando servicios contables y legales de calidad excepcional. Nos comprometemos a ser socios estratégicos de nuestros clientes, proporcionando soluciones integrales que impulsen su crecimiento y cumplimiento.
-        </span>
-        <picture className="flex max-w-lg rounded-xl overflow-hidden max-h-[215px]">
-            <img src="https://jezzmedia.com/wp-content/uploads/2022/10/mision-vision-y-valores-6.jpg" alt="justicia y contabilidad" className="w-full h-auto"/>
-        </picture>
+            <span className="max-w-[500px]">
+                <strong className="text-[#ffb703]">Misión de RVC: </strong>
+                Facilitar el éxito empresarial brindando servicios contables y legales de calidad excepcional. Nos comprometemos a ser socios estratégicos de nuestros clientes, proporcionando soluciones integrales que impulsen su crecimiento y cumplimiento.
+            </span>
+            <picture className="flex max-w-lg rounded-xl overflow-hidden max-h-[215px]">
+                <img src="https://jezzmedia.com/wp-content/uploads/2022/10/mision-vision-y-valores-6.jpg" alt="justicia y contabilidad" className="w-full h-auto"/>
+            </picture>
         </article>
     )
 }
 const CompoTres = () => {
     return(
         <article className="font-semibold flex-col flex   md:flex-row justify-around  items-center p-4 text-sm gap-2">
-        <span className="max-w-[500px]">
-            <strong className="text-[#ffb703]">Visión de RVC: </strong>
-            Ser reconocidos como líderes en la prestación de servicios contables y legales, destacándonos por nuestra excelencia, innovación y compromiso con la satisfacción del cliente. Aspiramos a ser un referente en el sector, contribuyendo al éxito y desarrollo sostenible de las empresas que servimos.
-        </span>
-        <picture className="flex max-w-lg rounded-xl overflow-hidden max-h-[215px]">
-            <img src="https://concepto.de/wp-content/uploads/2016/03/vision-de-una-empresa-e1547822994306.jpg" alt="justicia y contabilidad" className="w-full h-auto"/>
-        </picture>
+            <span className="max-w-[500px]">
+                <strong className="text-[#ffb703]">Visión de RVC: </strong>
+                Ser reconocidos como líderes en la prestación de servicios contables y legales, destacándonos por nuestra excelencia, innovación y compromiso con la satisfacción del cliente. Aspiramos a ser un referente en el sector, contribuyendo al éxito y desarrollo sostenible de las empresas que servimos.
+            </span>
+            <picture className="flex max-w-lg rounded-xl overflow-hidden max-h-[215px]">
+                <img src="https://concepto.de/wp-content/uploads/2016/03/vision-de-una-empresa-e1547822994306.jpg" alt="justicia y contabilidad" className="w-full h-auto"/>
+            </picture>
         </article>
     )
 }
