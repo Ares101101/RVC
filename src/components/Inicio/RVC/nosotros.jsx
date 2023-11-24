@@ -15,7 +15,7 @@ export function Nosotros(){
     return (
 
         <section className="flex sm:max-w-[1280px] w-[100%] flex-col sm:flex-row  min-h-[350px]   ">
-                <article className="flex flex-col bg-[#219ebc] font-semibold sm:w-[33%] w-[100%] h-[400px] justify-around" >
+                <article className="flex flex-col bg-white font-semibold sm:w-[33%] w-[100%] h-[500px] justify-around" >
                     {nbuttons.map((button, index) => (
                     <Bno 
                     name={button} 

@@ -3,19 +3,21 @@ import { juan } from "../RVC/n";
 import { Scard } from "../../servicios/serviciosCard.jsx/scard"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar,  } from 'swiper/modules';
+import Service from "./service";
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 export function ServSlider (){      
 
     return(
-        <div className="flex w-full h-[400px] items-center justify-center p-4">
+        <div className="flex flex-col w-full h-[500px] gap-4   items-start justify-center p-4">
+            <div className="font-semibold text-sm text-[#219ebc] flex items-center"> <Service/> NUESTROS SERVICIOS</div>
             <Swiper 
             modules={[Navigation, Scrollbar, ]}
             slidesPerView={1}
             spaceBetween={14}
+            rewind={true}
             scrollbar={{ draggable: true }}
             pagination={{
                 clickable: true,

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        oswald: ['Oswald', 'sans-serif'],
+      },
       scale: {
         '-1': '-1',
       },

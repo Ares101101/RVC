@@ -23,7 +23,7 @@ const logoFunction = (index) =>{
 }
 export function Bno ({name  ,click , index}){
     return(
-        <a className="text-white flex items-center justify-between hover:bg-[#fb8500]   cursor-pointer h-12 pl-4 pr-4 text-sm " onClick={()=>click(index)}>
+        <a className="text-[#219ebc] flex items-center justify-between hover:bg-[#fb8500]   cursor-pointer h-full pl-4 pr-4 text-sm " onClick={()=>click(index)}>
             <div className='flex gap-2 items-center'>
                 {logoFunction(index)}
                 {name}

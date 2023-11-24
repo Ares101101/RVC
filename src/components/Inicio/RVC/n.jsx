@@ -20,7 +20,7 @@ export const juan = [
         },
         {
             "id": "5ad1a235-0d9c-410a-b32b-220d91689a08",
-            "title": " Asesoría Laboral",
+            "title": "Asesoría Laboral",
             "imagen":"https://tuplancontable.com/wp-content/uploads/2017/07/Asesoria-laboral-1.jpg"
             
         },
@@ -174,4 +174,44 @@ export const juan = [
         },
         
 
+]
+export const Sunat = [
+    {
+        "id": "1",
+        "title": "Programa de Declaración Telemática - PDT",
+        "imagen":"https://www.redjurista.com/AppFolders/Images/News/IMAGENES/impuestos/IMP9.JPG",
+        "url":"https://www2.sunat.gob.pe/pdt/index.htm"
+
+    },
+    {
+        "id": "2",
+        "title": "Tipo de cambio",
+        "imagen":"https://soscia.pe/Consultas/wp-content/uploads/2022/08/aseoria-tributaria-en-peru.jpg",
+        "url":"http://www.sunat.gob.pe/cl-at-ittipcam/tcS01Alias"
+    },
+    {
+        "id": "3",
+        "title": "Sunat Operaciones en Linea",
+        "imagen":"https://tuplancontable.com/wp-content/uploads/2017/07/Asesoria-laboral-1.jpg",
+        "url":"https://www.sunat.gob.pe/sol.html"
+    },
+    {
+        "id": "4",
+        "title": "Módulos independientes PDT",
+        "imagen":"https://png.pngtree.com/png-vector/20190119/ourlarge/pngtree-the-mall-cartoon-mall-positioning-positioning-navigation-png-image_477660.jpg",
+        "url":"http://www2.sunat.gob.pe/pdt/pdtdown/independientes/independientes.htm" 
+    },
+    {
+        "id": "5",
+        "title": "Sunat",
+        "imagen":"https://sni.org.pe/wp-content/uploads/2020/02/Detracciones-Solicitud-de-Liberaci%C3%B3n-de-Fondos-y-Procedimiento-de-Ingresos-como-Recaudacion-img.jpg",
+        "url":"https://www.sunat.gob.pe/"
+    },
+    {
+        "id": "6",
+        "title": "Actualización de la Deuda",
+        "imagen":"https://www.esan.edu.pe/images/blog/2015/09/07/detracciones-principal.jpg",
+        "url":"http://www.sunat.gob.pe/cl-at-itcalculibre/actdeuS01Alias"
+    },
+    
 ]

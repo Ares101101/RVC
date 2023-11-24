@@ -2,7 +2,7 @@ import styles from './s.module.css'
 const Logo4 = () => {
   return (
     <svg 
-    fill="white" 
+    fill="#219ebc" 
     width="24px" 
     height="24px" 
     viewBox="0 0 24 24" 
