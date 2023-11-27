@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import PropTypes from 'prop-types';
 import Logo1 from './buttons//logo1'
 import Logo2 from './buttons/logo2'
@@ -28,19 +27,15 @@ const logoFunction = (index) => {
 
 
 
-export function Bno ({name  ,click , index}){
+export function Bno ({name, click, index, estado}){
 
-  const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => {
-    setClicked(true);
-    click(index);
-  };
+  
 
   return(
   <a 
-    className={`${clicked ? styles.clicked : styles.customlink} `} 
-    onClick={() =>handleClick()}
+    className={`${index == estado ? styles.clicked : styles.customlink} `} 
+    onClick={() =>click(index)}
     >
     <div className={styles.logocontainer}>
       <div className={styles.iconcontainer}>

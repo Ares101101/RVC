@@ -8,6 +8,8 @@
     font-size: 0.75rem;
     cursor: pointer;
     height: 2.5rem;
+    width: 250px;
+    font-weight: 600;
   }
   
   .customlink:hover {
@@ -21,7 +23,7 @@
   }
   
   .iconcontainer {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     border-right: 1px solid rgba(255, 255, 255, 0.5);
@@ -40,5 +42,34 @@
     padding-right: 8px;
   }
   .clicked {
-    background-color: #094074;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+    font-size: 0.75rem;
+    cursor: pointer;
+    height: 2.5rem;
+    background-color:#005596;
+    width: 250px;
+    font-weight: 600;
+  }
+  
+  .clicked .logocontainer .iconcontainer .svgComponent {
+    stroke: white;
+    width: 20px;
+    height: 20px;
+  }
+  .clicked .logocontainer .iconcontainer .svgComponent path {
+    stroke: white;
+    width: 20px;
+    height: 20px;
+  }
+  @media screen and (max-width: 640px) {
+    .customlink {
+      width: 100%;
+    }
+    .clicked {
+      width: 100%;
+    }
   }

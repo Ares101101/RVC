@@ -1,0 +1,49 @@
+
+.sect {
+    display: flex;
+    gap: 1rem; /* Ajusta según tus necesidades */
+    flex-direction: column;
+    width: "100%";
+    cursor: pointer;
+  }
+.sect article {
+    min-height: 40px;
+    height: auto;
+    border-bottom: 1px solid #000; /* Ajusta según tus necesidades y color */
+    display: flex;
+    align-items: center;
+    
+}
+.sect:hover article div{
+   
+ 
+}
+
+.sect footer{
+    min-height: 40px;
+    height: auto;
+    display: none;
+    align-items: center;
+}
+  
+.sect1 {
+    display: flex;
+    gap: 1rem; /* Ajusta según tus necesidades */
+    flex-direction: column;
+    width: "100%";
+    cursor: pointer;
+}
+.sect1 article {
+    min-height: 40px;
+    height: auto;
+    border-bottom: 1px solid #000; /* Ajusta según tus necesidades y color */
+    display: flex;
+    align-items: center;
+    
+}
+.sect1 footer{
+    min-height: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}

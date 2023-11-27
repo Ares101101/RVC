@@ -215,3 +215,30 @@ export const Sunat = [
     },
     
 ]
+
+export const somos1 = [
+    {
+        "id": "1",
+        "pregunta": "¿QUIÉNES SOMOS?",
+        "cuerpo":"Somos una empresa que ofrece servicios integrales en contabilidad y abogacía.",
+
+    },
+    {
+        "id": "2",
+        "pregunta": "¿QUÉ BUSCAMOS?" ,
+        "cuerpo":"Buscamos brindar soluciones personalizadas que impulsen su éxito empresarial. La empresa se esfuerza por ofrecer servicios de alta calidad tanto en el ámbito contable como legal.",
+    },
+    {
+        "id": "3",
+        "pregunta":"¿QUÉ HACEMOS?" ,
+        "cuerpo":"Ofrecemos servicios contables que van desde la gestión de registros financieros hasta consultoría . Además, en el ámbito legal, brinda asesoramiento en diversas áreas como derecho corporativo, laboral y civil.",
+    },
+    {
+        "id": "4",
+        "pregunta":"¿POR QUÉ LO HACEMOS?",
+        "cuerpo":"Por que estamos comprometidos a contribuir en el éxito de nuestros clientes, reconociendo la importancia de contar con un respaldo experto en áreas cruciales como la contabilidad y la abogacía",
+   },
+    
+    
+]
+
