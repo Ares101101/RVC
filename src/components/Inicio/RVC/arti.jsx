@@ -19,7 +19,7 @@ export function Arti({ index }) {
   }
 const CompoUno = () => {
     return(
-            <article className="font-semibold sm:w-[68%] w-full flex-col flex   md:flex-row justify-around  items-center p-4 text-sm gap-4">
+            <article className="font-semibold sm:w-[68%] w-full flex-col flex   md:flex-row justify-around  items-center  text-sm gap-4">
                 <span className="md:w-[50%] w-[100%]">
                     <strong className="text-[#ffb703]">Ámbito de Actividad: </strong>
                     RVC es una empresa integral que se dedica tanto a servicios contables como a la abogacía. Nuestro enfoque es brindar soluciones completas a las necesidades legales y financieras de nuestros clientes.
@@ -32,7 +32,7 @@ const CompoUno = () => {
 }
 const CompoDos = () => {
     return(
-        <article className="font-semibold flex-col flex sm:w-[68%] w-full  md:flex-row justify-around  items-center p-4 text-sm gap-4">
+        <article className="font-semibold flex-col flex sm:w-[68%] w-full  md:flex-row justify-around  items-center  text-sm gap-4">
             <span className="md:w-[50%] w-[100%]">
                 <strong className="text-[#ffb703]">Misión de RVC: </strong>
                 Facilitar el éxito empresarial brindando servicios contables y legales de calidad excepcional. Nos comprometemos a ser socios estratégicos de nuestros clientes, proporcionando soluciones integrales que impulsen su crecimiento y cumplimiento.
@@ -45,7 +45,7 @@ const CompoDos = () => {
 }
 const CompoTres = () => {
     return(
-        <article className="font-semibold flex-col flex sm:w-[68%] w-full md:flex-row justify-around  items-center p-4 text-sm gap-4">
+        <article className="font-semibold flex-col flex sm:w-[68%] w-full md:flex-row justify-around  items-center  text-sm gap-4">
             <span className="md:w-[50%] w-[100%]">
                 <strong className="text-[#ffb703]">Visión de RVC: </strong>
                 Ser reconocidos como líderes en la prestación de servicios contables y legales, destacándonos por nuestra excelencia, innovación y compromiso con la satisfacción del cliente. Aspiramos a ser un referente en el sector, contribuyendo al éxito y desarrollo sostenible de las empresas que servimos.
@@ -58,7 +58,7 @@ const CompoTres = () => {
 }
 const CompoCuatro = () => {
     return(
-        <article className="font-semibold flex-col flex sm:w-[68%] w-full md:flex-row justify-between  items-center p-4 text-sm gap-4">
+        <article className="font-semibold flex-col flex sm:w-[68%] w-full md:flex-row justify-between  items-center  text-sm gap-4">
         <span className="md:w-[50%] w-[100%]">
             <strong className="text-[#ffb703]">Objetivos: </strong>
             <div>
@@ -73,7 +73,7 @@ const CompoCuatro = () => {
 }
 const CompoCinco = () => {
     return(
-        <article className="font-semibold flex-col flex sm:w-[68%] w-full md:flex-row justify-between items-center p-4 text-sm gap-4">
+        <article className="font-semibold flex-col flex sm:w-[68%] w-full md:flex-row justify-between items-center  text-sm gap-4">
         <span className="md:w-[50%] w-[100%]">
             <strong className="text-[#ffb703]">Valores: </strong>
             <div>

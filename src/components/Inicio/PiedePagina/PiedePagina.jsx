@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export function PieDePagina (){
     return(
        <article className="w-full flex flex-col bg-[#000000] h-auto md:h-[500px] text-white items-center justify-between text-xs ">
-        <div className="flex flex-col md:flex-row w-full h-full pl-4 pr-4 pt-6 font-semibold">
+        <div className="flex flex-col md:flex-row w-full h-full gap-6 pl-4 pr-4 pt-6 font-semibold">
             <div className="flex flex-col w-full h-full  justify-start gap-6 ">
                 <div >
                     HIDELMO CHUQUIPURA CCAHUATA
@@ -46,6 +46,7 @@ export function PieDePagina (){
             </div>
             <div className="flex w-full">
                 ESTAMOS EN CONTACTO
+                
             </div>
             <div className="flex w-full">
                 LINKS DE INTERES

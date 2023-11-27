@@ -8,7 +8,7 @@ export function Mejo () {
             <picture className="w-full flex justify-center items-center  grayscale brightness-40 contrast-75 ">
                 <img src="https://actualidadlaboral.com/wp-content/uploads/2020/08/abogado-leyendo.jpg" alt="imagen" className="w-full h-[500px]" />
             </picture>
-            <div className="sm:w-[50%] w-full absolute right-0 tex-center pl-2 pr-2 text-sm font-semibold bg-[#2b2d42] bg-opacity-80 h-full justify-around  flex flex-col">
+            <div className="sm:w-[50%] w-full absolute right-0 tex-center pl-2 pr-2 text-sm font-semibold bg-[#1E73BE] opacity-90  h-full justify-around  flex flex-col">
                 <div className="">
                     
                      ¿POR QUÉ SOMOS LO MEJORES?

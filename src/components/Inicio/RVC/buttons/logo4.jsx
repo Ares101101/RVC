@@ -1,20 +1,16 @@
-import styles from './s.module.css'
+import styles from '../bno.module.css'
+
 const Logo4 = () => {
   return (
     <svg 
-    fill="#219ebc" 
-    width="24px" 
-    height="24px" 
+    width="800px" 
+    height="800px" 
     viewBox="0 0 24 24" 
+    fill="none" 
     xmlns="http://www.w3.org/2000/svg"
     className={styles.svgComponent}
     >
-      <g data-name="Layer 2">
-        <g data-name="trending-up">
-          <rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0" />
-          <path d="M21 7a.78.78 0 0 0 0-.21.64.64 0 0 0-.05-.17 1.1 1.1 0 0 0-.09-.14.75.75 0 0 0-.14-.17l-.12-.07a.69.69 0 0 0-.19-.1h-.2A.7.7 0 0 0 20 6h-5a1 1 0 0 0 0 2h2.83l-4 4.71-4.32-2.57a1 1 0 0 0-1.28.22l-5 6a1 1 0 0 0 .13 1.41A1 1 0 0 0 4 18a1 1 0 0 0 .77-.36l4.45-5.34 4.27 2.56a1 1 0 0 0 1.27-.21L19 9.7V12a1 1 0 0 0 2 0V7z" />
-        </g>
-      </g>
+      <path d="M21 3L14 9L10 5L3 11M4.5 21C3.67157 21 3 20.3284 3 19.5V17.5C3 16.6716 3.67157 16 4.5 16C5.32843 16 6 16.6716 6 17.5V19.5C6 20.3284 5.32843 21 4.5 21ZM11.5 21C10.6716 21 10 20.3284 10 19.5V14.5C10 13.6716 10.6716 13 11.5 13C12.3284 13 13 13.6716 13 14.5V19.5C13 20.3284 12.3284 21 11.5 21ZM18.5 21C17.6716 21 17 20.3284 17 19.5V16.5C17 15.6716 17.6716 15 18.5 15C19.3284 15 20 15.6716 20 16.5V19.5C20 20.3284 19.3284 21 18.5 21Z"  strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   );
 };

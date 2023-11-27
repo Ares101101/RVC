@@ -42,13 +42,13 @@ const ComponenteUno = () => {
                 fontSize: '32px',
                 textTransform: 'uppercase',
                 lineHeight: '38px',
-                fontWeight: 400,
+                fontWeight: 600,
                 marginBottom: '20px',
                 textShadow: '2px 3px 11px rgba(0, 0, 0, 1)',
-                color:'#ffb703',
+                color:'white',
             }}
          >
-            <span className=" text-[#023047] ">RVC : </span>  CONFIANZA QUE IMPULSA TU<span className=" text-[#023047] "> ÉXITO .</span>
+            <span className=" text-white ">RVC  </span>  CONFIANZA QUE IMPULSA TU<span className=" text-white "> ÉXITO .</span>
          </  motion.strong>
     )
 };
@@ -72,13 +72,13 @@ const ComponenteDos = () => {
                 fontSize: '32px',
                 textTransform: 'uppercase',
                 lineHeight: '38px',
-                fontWeight: 400,
+                fontWeight: 600,
                 marginBottom: '20px',
                 textShadow: '2px 3px 11px rgba(0, 0, 0, 1)',
                 color:'white',
             }}
          >
-            Servicios integrales en las diferentes áreas de su empresa  	 			
+            SERVICIOS INTEGRALES EN LAS DIFERENTES ÁREAS DE SU EMPRESA.  	 			
          </  motion.strong>
     )
   };
@@ -102,13 +102,13 @@ const ComponenteDos = () => {
                 fontSize: '32px',
                 textTransform: 'uppercase',
                 lineHeight: '38px',
-                fontWeight: 400,
+                fontWeight: 600,
                 marginBottom: '20px',
                 textShadow: '2px 3px 11px rgba(0, 0, 0, 1)',
                 color:'#ffb703',
             }}
          >
-            <span className=" text-[#023047] ">HOLA </span>  CONFIANZA QUE IMPULSAN TU<span className=" text-[#023047] "> ÉXITO .</span>
+            <span className=" text-white ">  BRINDAMOS SOLUCIONES LEGALES Y FINANCIERAS A MEDIDA.</span>
          </  motion.strong>
     )
   }
@@ -132,13 +132,13 @@ const ComponenteDos = () => {
                 fontSize: '32px',
                 textTransform: 'uppercase',
                 lineHeight: '38px',
-                fontWeight: 400,
+                fontWeight: 600,
                 marginBottom: '20px',
                 textShadow: '2px 3px 11px rgba(0, 0, 0, 1)',
                 color:'#ffb703',
             }}
          >
-            <span className=" text-[#023047] ">HOLA </span>  CONFIANZA QUE IMPULSAN TU<span className=" text-[#023047] "> ÉXITO .</span>
+           <span className=" text-white ">  LA TRANSPARENCIA Y EL COMPROMISO SON LA BASE DE NUESTROS SERVICIOS.</span>
          </  motion.strong>
     )
   }

@@ -1,7 +1,10 @@
 export function Ifr (){
     return(
-        <iframe src="https://gestion.pe/noticias/sunat/" className="w-full h-[500px]">
+        <section className="flex justify-center items-center">
+             <iframe src="https://gestion.pe/noticias/sunat/" className="w-[90%] h-[500px] ">
             
-        </iframe>
+            </iframe>
+        </section>  
+       
     )
 }

@@ -18,7 +18,7 @@ export function NavBar( { text, textclass, index } ){
 
     return (
             <motion.div 
-            className ="bg-opacity-50  h-14 text-center items-center flex hover:bg-[#ffb703] hover:text-[#023047] hover:bg-opacity-90 transition duration-300 cursor-pointer px-4 text-white font-semibold justify-center text-sm" 
+            className ="bg-opacity-50  h-14 text-center items-center flex hover:bg-[#005596]  hover:bg-opacity-90 transition duration-300 cursor-pointer px-4  text-white font-semibold justify-center text-sm" 
             index ={index}
             initial='hidden'
             animate='visible'

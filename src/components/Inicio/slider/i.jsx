@@ -1,8 +1,8 @@
 export const image = [
-    "https://concepto.de/wp-content/uploads/2021/01/objetivos-de-la-contabilidad-e1610466414709.jpg",   
-    "https://escuelaselect.com/wp-content/uploads/contabilidad.jpg", 
-    "https://ubjonline.b-cdn.net/wp-content/uploads/2017/08/contabilidad-una-aproximacion-conceptual.jpg",
-    "https://concepto.de/wp-content/uploads/2019/08/contabilidad-administrativa-e1564786248133-800x400.jpg",
+    "https://www.jasminsoftware.es/wp-content/uploads/2020/01/servicios-de-contabilidad.jpg",   
+    "https://www.asesoriamorlan.com/wp-content/uploads/2019/09/Portada.jpg ", 
+    "https://estrategias-marketing-online.com/wp-content/uploads/C%C3%B3mo-ofrecer-servicios-contables.jpg",
+    "https://www.billin.net/blog/wp-content/uploads/2020/09/Libro-mayor-1140x760.jpg",
     
     
 ];

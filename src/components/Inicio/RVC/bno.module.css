@@ -1,0 +1,44 @@
+
+.customlink {
+    color: #094074;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+    font-size: 0.75rem;
+    cursor: pointer;
+    height: 2.5rem;
+  }
+  
+  .customlink:hover {
+    background-color: #c6c6c6;
+  }
+  
+  .logocontainer {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .iconcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+  
+  .svgComponent{
+    stroke: #094074;
+    fill: transparent;
+    width: 20px;
+    height: 20px;
+  }
+  .arrow{
+    padding-right: 8px;
+  }
+  .clicked {
+    background-color: #094074;
+  }

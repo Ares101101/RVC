@@ -14,18 +14,18 @@ export function Nosotros(){
 
     return (
 
-        <section className="flex sm:max-w-[1280px] w-[100%] flex-col sm:flex-row  min-h-[350px]   ">
-                <article className="flex flex-col bg-white font-semibold sm:w-[33%] w-[100%] h-[500px] justify-around" >
+        <section className="flex sm:max-w-[1280px] w-[100%] flex-col sm:flex-row  min-h-[350px] gap-4 p-4">
+                <article className="flex flex-col bg-white font-semibold sm:w-[250px] w-[100%] h-auto justify-stard" >
                     {nbuttons.map((button, index) => (
                     <Bno 
                     name={button} 
                     key={index}
                     index={index} 
-                    click={indexFunc}    
+                    click={indexFunc} 
+                    estado={indexLogo}   
                     />
                     ))
                     }
-                    {console.log(indexLogo)}
                 </article>
                 <Arti index={indexLogo}/>
         </section>
