@@ -5,7 +5,7 @@ export function Scard ({ cover, title,  }){
     return(
         
           <article
-            className="group flex justify-center relative hover:bg-[#fb8500] shadow-lg hover:shadow-xl bg-[#023047]  rounded-md ransi transition-all duration-300 h-[300px]"
+            className="group flex justify-center relative hover:bg-[#fe9000] shadow-lg hover:shadow-xl bg-[#1e73be]   ransi transition-all duration-300 h-[300px] "
             >
             <div
                 className="absolute right-4 bottom-20 translate-y-4
@@ -16,24 +16,22 @@ export function Scard ({ cover, title,  }){
             </div>
 
             <div
-                className="playlist-item transition-all duration-300 flex relative p-2 overflow-hidden gap-2 pb-6 rounded-md w-44 flex-col"
+                className="playlist-item transition-all duration-300 flex relative p-2 overflow-hidden gap-2 pb-6  w-44 flex-col"
               
             >
                 <picture className="aspect-square w-full h-auto flex-none">
                 <img
                     src={cover}
                     alt={`Cover of ${title} `}
-                    className="object-cover w-full h-full rounded-md"
+                    className="object-cover w-full h-full "
                     
                 />
                 </picture>
 
                 <div className="flex flex-auto flex-col px-2">
-                <h4 className="text-white text-sm " >
-                    {title}
-                </h4>
-
-            
+                    <h4 className="text-white text-sm " >
+                        {title}
+                    </h4>
                 </div>
             </div>
             </article>       

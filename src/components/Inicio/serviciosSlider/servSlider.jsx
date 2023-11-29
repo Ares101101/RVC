@@ -12,7 +12,7 @@ export function ServSlider (){
 
     return(
         <div className="flex flex-col w-full h-[500px] gap-4   items-start justify-center p-4">
-            <div className="font-semibold text-sm text-[#219ebc] flex items-center"> <Service/> NUESTROS SERVICIOS</div>
+            <div className="font-semibold text-sm text-[#00bcd4] flex items-center"> <Service/> NUESTROS SERVICIOS</div>
             <Swiper 
             modules={[Navigation, Scrollbar, ]}
             slidesPerView={1}

@@ -17,7 +17,8 @@ export function CompoUno () {
                     ar={sec.pregunta} 
                     foo ={sec.cuerpo}
                     index = {cssIndex} 
-                    onClick = {()=>{indexFunc(index)}}
+                    actual = {index}
+                    click = {indexFunc}
                     />
                 ))}
             </article>
