@@ -5,7 +5,7 @@ export function Scard ({ cover, title,  }){
     return(
         
           <article
-            className="group flex justify-center relative hover:bg-[#fe9000] shadow-lg hover:shadow-xl bg-[#1e73be]   ransi transition-all duration-300 h-[300px] "
+            className="group flex justify-center relative hover:bg-[#fe9000] shadow-lg hover:shadow-xl bg-[#00bcd4]   ransi transition-all duration-300 h-[300px] "
             >
             <div
                 className="absolute right-4 bottom-20 translate-y-4
