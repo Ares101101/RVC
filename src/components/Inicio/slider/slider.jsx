@@ -89,7 +89,7 @@ export const Slider = ( {indexFunc}) => {
       <AnimatePresence initial={false} custom={direction}   >
         <picture className="w-full   items-center  flex  justify-center">
         <motion.img
-          className="w-screen h-auto filter contrast-125 "
+          className="w-full h-auto filter contrast-125 "
           key={page}
           src={image[imageIndex]}
           custom={direction}

@@ -5,6 +5,7 @@ import Inicio from "./components/Inicio/Inicio"
 import FullScreenComponent from "./components/header/fullScreen"
 import { Servicios } from "./components/servicios/Servicios"
 import ErrorPage from "./error-page"
+import { ServiciosExtend } from "./components/servicios/serviciosExtend/serviciosExtend"
 
 function App() {
   
@@ -15,8 +16,10 @@ function App() {
         <Route path="/"   element={<Inicio/>}/>
         <Route path="Inicio" element={<Inicio/>}/>
         <Route path="|||" element={<FullScreenComponent/>}/> 
-        <Route path="Servicios" element={<Servicios/>}/>
-        <Route path="*" element={<ErrorPage/>}/>                
+        <Route path="SERVICIOS" element={<Servicios/>}/>
+        <Route path="SERVICIOS/:id" element={<ServiciosExtend/>}>
+        </Route> 
+        <Route path="*" element={<ErrorPage/>}/>           
       </Routes>
 
     </div>   

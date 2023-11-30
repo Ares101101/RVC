@@ -6,7 +6,7 @@ import {Mejo} from './mejores/mejores'
 import { ServSlider } from "./serviciosSlider/servSlider";
 import { ACSlider } from "./ACslider/acslider";
 import { Ifr } from "./iframe/ifr";
-import { PieDePagina } from "./PiedePagina/PiedePagina";
+import { PieDePagina } from "../PiedePagina/PiedePagina";
 
 
 export default function Inicio (){

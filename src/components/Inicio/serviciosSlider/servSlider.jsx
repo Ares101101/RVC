@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { juan } from "../RVC/n";
-import { Scard } from "../../servicios/serviciosCard.jsx/scard"
+import { ServiciosDeRVC } from "../RVC/n";
+import { Scard } from "../../servicios/serviciosCard/scard"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar,  } from 'swiper/modules';
 import Service from "./service";
@@ -42,7 +42,7 @@ export function ServSlider (){
             }}
             className="h-full flex w-[100%] items-center justify-center"
             >
-                {juan.map((element) => (
+                {ServiciosDeRVC.map((element, index) => (
                 <SwiperSlide 
                 key={element.id} 
                 virtualIndex={element.id}
@@ -53,7 +53,8 @@ export function ServSlider (){
                         >   
                         <Scard 
                             cover={element.imagen} 
-                            title={element.title} 
+                            title={element.title}
+                            index={index} 
                         />
                     </Link>       
                 </SwiperSlide>  

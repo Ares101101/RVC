@@ -29,7 +29,7 @@ export function Sunatcard ({ title, index }){
     return(
         
           <article
-            className="group flex justify-center relative hover:bg-[#fb8500] shadow-lg hover:shadow-xl bg-white  ransi transition-all duration-300 h-[200px] items-center "
+            className="group flex justify-center relative hover:bg-[#ff8800] shadow-lg hover:shadow-xl bg-white  ransi transition-all duration-300 h-[200px] items-center "
             >
             <div
                 className="absolute right-4 bottom-20 translate-y-4
@@ -48,7 +48,7 @@ export function Sunatcard ({ title, index }){
                 </picture>
 
                 <div className="flex flex-auto flex-col px-2">
-                <div className="text-[#023047] font-semibold text-sm  " >
+                <div className="text-[#094074] font-semibold text-sm  " >
                     
                     {title}
                 </div>

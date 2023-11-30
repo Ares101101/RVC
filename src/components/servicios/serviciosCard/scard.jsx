@@ -1,20 +1,15 @@
 
 import PropTypes from 'prop-types';
 
-export function Scard ({ cover, title,  }){
+export function Scard ({ cover, title, }){
+
+    
+
     return(
         
           <article
-            className="group flex justify-center relative hover:bg-[#fe9000] shadow-lg hover:shadow-xl bg-[#00bcd4]   ransi transition-all duration-300 h-[300px] "
+            className="group flex justify-center relative hover:bg-[#1e73be] shadow-lg hover:shadow-xl bg-[#00bcd4]   ransi transition-all duration-300 h-[300px] "
             >
-            <div
-                className="absolute right-4 bottom-20 translate-y-4
-                transition-all duration-500 opacity-0
-                group-hover:translate-y-0 group-hover:opacity-100
-                z-10"
-            >
-            </div>
-
             <div
                 className="playlist-item transition-all duration-300 flex relative p-2 overflow-hidden gap-2 pb-6  w-44 flex-col"
               
@@ -28,8 +23,8 @@ export function Scard ({ cover, title,  }){
                 />
                 </picture>
 
-                <div className="flex flex-auto flex-col px-2">
-                    <h4 className="text-white text-sm " >
+                <div className="flex flex-auto flex-col items-center justify-center px-2 ">
+                    <h4 className="text-white text-sm" >
                         {title}
                     </h4>
                 </div>
