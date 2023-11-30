@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const FullScreenComponent = () => {
  
   return (
-      <div className="w-screen h-screen flex flex-col justify-center items-center bg-[#023047]">
+      <div className="w-screen h-screen flex flex-col justify-center items-center bg-[#1e73be]">
         <div className="flex flex-col">
             <Link to="/Servicios" >
                <NavBar text="Servicios"/>   
