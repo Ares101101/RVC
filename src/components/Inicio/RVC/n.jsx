@@ -5,8 +5,7 @@ export const nbuttons = [
     "VISIÓN", 
     "OBJETIVOS",
     "VALORES"
-];
-
+]
 export const ServiciosDeRVC = [
     {
         "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
@@ -224,7 +223,6 @@ export const Sunat = [
     },
     
 ]
-
 export const somos1 = [
     {
         "id": "1",
@@ -249,5 +247,33 @@ export const somos1 = [
    },
     
     
+]
+export const Clientes2 = [
+    {
+        "id":1,
+        "imagen":"../../../../public/brukval.png",
+        "empresa":"BRUKVAL"
+    },
+    {
+        "id":2,
+        "imagen":"../../../../public/bismark.jpg",
+        "empresa":"BISMARK"
+    },
+    {
+        "id":3,
+        "imagen":"../../../../public/GSIC.jpg",
+        "empresa":"GSIC GLOBAL"        
+    },
+    {
+        "id":4,
+        "imagen":"../../../../public/nelica.png",
+        "empresa":"SERVICIOS GENERALES NELICA"
+    },
+    {
+        "id":5,
+        "imagen":"../../../../public/da.jpg",
+        "empresa":"DANTE RICALDE INFORMATIC SERVICES S.A.C.",
+    },
+
 ]
 

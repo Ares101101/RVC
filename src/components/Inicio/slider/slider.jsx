@@ -80,7 +80,7 @@ export const Slider = ( {indexFunc}) => {
       variants={editions}
       ref={sliderRef}
     >
-      <div className="bg-[#00bcd4] text-white hover:text-white hover:bg-[#1e73be] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-10  transform scale-1 absolute left-0  "  
+      <div className="bg-[#00bcd4] text-white hover:text-white hover:bg-[#1e73be]  w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-10  transform scale-1 absolute left-0  "  
       onClick={() => paginate(-1)}
       
       >
@@ -118,7 +118,7 @@ export const Slider = ( {indexFunc}) => {
         </picture>
       </AnimatePresence>
      
-      <div className="  bg-[#00bcd4] text-white hover:text-white hover:bg-[#1e73be] rounded-sm w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-10  transform scale-1 absolute right-0 "  
+      <div className="  bg-[#00bcd4] text-white hover:text-white hover:bg-[#1e73be]  w-[40px] h-[40px] flex justify-center items-center select-none cursor-pointer font-bold top-1/2  -translate-y-1/2 text-sm z-10  transform scale-1 absolute right-0 "  
       onClick={() => paginate(1)}
       
       >
