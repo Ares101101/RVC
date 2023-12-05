@@ -1,4 +1,5 @@
-import RVC from '../../assets/RVC.svg'
+
+import { RVCs } from './RVC'
 import { MenuButtons } from './menuButtons'
 import { motion } from 'framer-motion'
 
@@ -33,11 +34,10 @@ export function MenuHeader() {
                 >
                     <p className="box-content">RVC servicios contables S.A.</p> 
                 </div>
-                <div 
+                <div     
                 className="pl-4"
-                
                 >
-                  <img src={RVC} alt="logo" />
+                <RVCs/>
                 </div>
             
                 <div 
