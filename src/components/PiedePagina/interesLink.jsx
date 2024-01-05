@@ -5,6 +5,7 @@ import MdPdt from "../Inicio/ACslider/mdpdt";
 import PDt from "../Inicio/ACslider/pdt";
 import TCambio from "../Inicio/ACslider/tc";
 import styles from './interesLink.module.css'
+import PropTypes from 'prop-types';
 
 const logoFunction = (index) =>{
     switch (index) {
@@ -39,4 +40,9 @@ export function InteresLinck ({ title, index }){
         
     )
 
+}
+
+InteresLinck.propTypes = {
+  title: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired
 }

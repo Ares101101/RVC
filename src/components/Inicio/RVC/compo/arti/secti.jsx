@@ -18,3 +18,9 @@ Sect.propTypes = {
     ar: PropTypes.string.isRequired,
     foo: PropTypes.string.isRequired,
   };
+
+Sect.propTypes = {
+  index : PropTypes.number.isRequired,
+  actual: PropTypes.number.isRequired,
+  click : PropTypes.func.isRequired
+}
