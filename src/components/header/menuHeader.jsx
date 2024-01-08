@@ -1,4 +1,5 @@
 
+import { Outlet } from 'react-router-dom'
 import { RVCs } from './RVC'
 import { MenuButtons } from './menuButtons'
 import { motion } from 'framer-motion'
@@ -18,6 +19,7 @@ const editions = {
 
 export function MenuHeader() {
     return (
+    <div>
         <motion.header 
         className=" w-full  flex justify-center fixed z-[11] inset-auto " 
         initial='hidden'
@@ -52,5 +54,9 @@ export function MenuHeader() {
                 </div>
             </div>
         </motion.header>
+        <div>
+            <Outlet />
+        </div>
+    </div>  
     )
 }

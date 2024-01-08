@@ -37,7 +37,7 @@ export function MenuButtons()  {
                     </Link>
                   ) : (
                     buttons.map((button, index) => (
-                      <Link to={button} key={index}>
+                      <Link to={button.toLowerCase()} key={index}>
                         <NavBar text={button}  index={(index+1)}/>
                       </Link>
                     ))
