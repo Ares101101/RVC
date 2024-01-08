@@ -16,9 +16,8 @@ function App() {
     <div className="bg-[#EDEDED] relative">
       <MenuHeader />
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/Inicio" element={<Inicio />} />
-        <Route path="/|||" element={<FullScreenComponent />} />
+        <Route path='/' element={<Inicio/>}/>
+        <Route path="/fullscreen" element={<FullScreenComponent />} />
         <Route path="/SERVICIOS" element={<Servicios />} />
         <Route path="/SERVICIOS/:id" element={<ServiciosExtend />} />
         <Route path="/Estudio Contable" element={<EstudioCont />} />

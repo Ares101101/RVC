@@ -23,12 +23,12 @@ export function MenuButtons()  {
    return (
 
         <header className= "flex  h-auto justify-between ">
-                 <Link to="Inicio">
+                 <Link to="/">
                   <NavBar text="INICIO" index={0}/> 
                 </Link>
                                
                 {anchoVentana < 600 ? (
-                    <Link to="|||">
+                    <Link to="/fullscreen">
                       <NavBar 
                       text={"|||"} 
                       textclass={"transform rotate-90"} 
